@@ -4,7 +4,8 @@ using namespace std;
 /*
 -------------- BINARY SEARCH----------------
 1- Applied on Vectors or arrays in sorted ones(meaninig those are either in ascending or descending order)
-2-
+2- To protect Ouselves from overflow condition we use the formula of ---->     MID = (START + (END-START)/2)
+3- Time complexity is O(log n)
 */
 class Solutions
 {
@@ -19,7 +20,7 @@ public:
         while (st <= end)
 
         {
-            int middle = (st + end) / 2;
+            int middle = st + (end - st)/2;
 
             if (target > arr[middle])
             {
