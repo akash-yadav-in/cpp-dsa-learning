@@ -13,6 +13,8 @@ using namespace std;
 
      === therefore the minimum time required is 40 and max time is sum of all tha is 100
 
+3---- TIME COMPLEXIITY = O(n(log(sum)))
+
 
 ====== QUESTION INFORMATION =======
 1- GIVEN N BOARDS OF LENGTH EACH GIVEN IN FOR OF ARRAY
