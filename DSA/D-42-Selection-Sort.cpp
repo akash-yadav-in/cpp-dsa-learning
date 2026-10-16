@@ -6,22 +6,34 @@ class Solution
 {
 public:
     vector<int> selectionSort(vector<int> &nums)
-
     {
-
-        sort(nums.begin(), nums.end());  // Here we have sorted the array
-        for (int value : nums) // Here we have return the sorted or the ascending ordered vector
+        for (int i = 0; i < nums.size() - 1; i++)
         {
-            return nums;
+            int smallest = i;
+
+            for (int j = i + 1; j < nums.size(); j++)
+            {
+                if (nums[j] < nums[smallest])
+                {
+                    smallest = j;
+                }
+            }
+            swap(nums[i], nums[smallest]);
         }
+        return nums;
     }
 };
 
 int main()
 {
-    vector<int> nums = {7, 4, 1, 5, 3};
+    vector<int> nums = {4, 1, 5, 2, 3};
     Solution c;
     c.selectionSort(nums);
+
+    for (int i = 0; i < 5; i++)
+    {
+        cout << nums[i];
+    }
 
     return 0;
 }
