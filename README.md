@@ -1,4 +1,4 @@
-# cpp-dsa-learning
+# CPP-DSA-LEARNING
 
 I started this with literally zero knowledge. Didn't know what a variable was. Didn't know why we write `int main()`. Watched the first CodeWithHarry video and just tried to not get lost.
 
