@@ -9,8 +9,7 @@ using namespace std;
  1 - vec.begin()   ----  if we derefrence *(vec.begin()) --- then we will get value at that index
  2 - vec.end()     ---- This points to end of the last element not the last element and derefrencing this *(vec.end()) --- this will give the garbarge value
 
- 3 - vec.reverse
-*/
+ */
 
 int main()
 {
