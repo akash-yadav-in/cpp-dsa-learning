@@ -8,7 +8,8 @@ int main()
 
     cout << "Size of vector is " << vec.size() << endl; // We can use vector_name.size----> to get size of vector
 
-    vec.push_back(29); // This Push_back will add an int in vec vector in the LAST
+    vec.clear(); // this function first clear all the elements of the vectors  and the below element then push back the element in the last of the vector 
+    vec.push_back(29); // This Push_back will add an int in vec vector in the Last 
     cout << "Size of vector after push_back is " << vec.size() << endl;
 
     for (int value : vec)
