@@ -3,13 +3,13 @@
 #include<queue>
 using namespace std;
 /*
-          ========== Priority - Queue ===============
+     ========== Priority - Queue ===============
           1 - Internally using a max-heap structures or min-heap binary trees
           2 - Highest priority is by default the largest value 
           3 - When popping it we wil get highest then 2nd highest and so on in sorted form
  === functions are
    -- Push , Emplace
-    - top ,  pop , size , empty
+    - top ,  pop , size and empty these function can also be used 
 
 
 
