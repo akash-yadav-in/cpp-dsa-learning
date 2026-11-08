@@ -4,10 +4,8 @@
 using namespace std;
 /*
 ----- Max - Min Element function -------
-- This can be used to find min and max element from a vector
-
-
-
+- This can be used to find min and max element in a vector functions
+-- below are the test cases
 
 */
 int main()
