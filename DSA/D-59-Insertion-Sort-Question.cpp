@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-// here explained the working of the insertionsort
+// here explained the working of the insertion-sort
 
 
 class Solution
